@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e3f2fd;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #0288d1;
+}
+p {
+    color: #555;
+}
+.add-habit {
+    margin: 20px 0;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+button:hover {
+    background-color: #01579b;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background-color: white;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 400px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li button {
+    background-color: #4caf50;
+    padding: 5px 10px;
+}
+li button:hover {
+    background-color: #388e3c;
+}

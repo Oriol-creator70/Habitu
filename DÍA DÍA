@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContentSpark</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#6200ea">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <h1>ContentSpark</h1>
+    <p>Genera ideas para tus videos</p>
+    <select id="niche">
+        <option value="comedy">Comedia</option>
+        <option value="dance">Baile</option>
+        <option value="education">Educación</option>
+    </select>
+    <button onclick="generateIdea()">Generar Idea</button>
+    <p id="idea"></p>
+    <h2>Mis Ideas Favoritas</h2>
+    <ul id="favorites"></ul>
+    <script src="app.js"></script>
+</body>
+</html>
